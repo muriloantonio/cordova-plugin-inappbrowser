@@ -33,7 +33,7 @@
 - (void)pluginInitialize
 {
     // default values
-    self.usewkwebview = NO;
+    self.usewkwebview = YES;
 
 #if __has_include("CDVWKWebViewEngine.h")
     self.wkwebviewavailable = YES;
